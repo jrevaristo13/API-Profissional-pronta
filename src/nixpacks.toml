@@ -1,0 +1,6 @@
+[build]
+install = 'dotnet restore'
+build = 'dotnet publish -c Release -o out'
+
+[start]
+cmd = 'dotnet out/SistemaPedidos.API.dll'
